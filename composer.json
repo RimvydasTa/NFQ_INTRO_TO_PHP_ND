@@ -1,0 +1,18 @@
+{
+    "name": "rimvydas/nfq_nd_intro_php",
+    "authors": [
+        {
+            "name": "Rimvydas",
+            "email": "tamosiunas.rimvydas@gmail.com"
+        }
+    ],
+    "require": {
+        "markrogoyski/math-php": "^0.45.0"
+    },
+
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+  }
+}
