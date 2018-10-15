@@ -9,14 +9,23 @@
 namespace Math;
 
 
+use MathPHP\Sequence\Basic;
+
 class NumberHelper
 {
     public static function addNumbers ($a, $b){
-        echo $a + $b;
+        return $a + $b;
     }
 
     public static function divideNumbers($a, $b)
     {
-        echo $a / $b;
+        return $a / $b;
+    }
+
+    public static function sumDigits ($numbers)
+    {
+       $factorialNumbers = Basic::digitSum($numbers);
+
+        print_r($factorialNumbers);
     }
 }
