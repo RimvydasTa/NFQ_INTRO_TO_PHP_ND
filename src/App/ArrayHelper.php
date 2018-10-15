@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Math;
+namespace App;
 use MathPHP\Functions\Map\Single;
 
 
@@ -28,6 +28,8 @@ class ArrayHelper
      * @param array $arr
      */
     public static function printArray (array $arr){
-        print_r($arr);
+        foreach ($arr as $num){
+            echo $num . "\n";
+        }
     }
 }
