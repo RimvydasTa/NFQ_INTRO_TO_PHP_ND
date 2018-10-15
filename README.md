@@ -17,6 +17,7 @@ Cons
 
 Pros
 - Slightly better performance
+- Less code writing
 - More freedom. Meaning you can pass anything to a function
 
 
